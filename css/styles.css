@@ -1,0 +1,55 @@
+body {
+	font-size: 15px;
+	color: white;
+	background-color: #3de9e0;
+	font-family: 'Baloo 2', cursive;
+}
+#header-nav {
+	background-color: #842ef5;
+	border-radius: 0px;
+	border: 0px;
+	color: white;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 25px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: rgb(100, 11, 216);
+}
+
+#home {
+	margin-bottom: 20px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > p {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 25px auto 0;
+	}
+}
